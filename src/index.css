@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply select-none;
+}
+
+::-webkit-scrollbar {
+  @apply w-[6px];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-500;
+  @apply p-1;
+  @apply rounded-sm;
+  @apply hover:bg-gray-400;
+}
+
+@property --my-color-1 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-color-2 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-color-3 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-color-4 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-color-5 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-color-6 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-color-7 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-color-8 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-color-9 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-color-10 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-color-11 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: yellow;
+}
+
+@property --my-angle-1 {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@property --my-angle-2 {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
